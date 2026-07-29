@@ -46,6 +46,7 @@ def single_fig(figsize=SINGLE_FIG_SIZE):
     return plt.subplots(1,1,figsize=figsize)
 
 
+
 def color_bp(bp, color):
     """ Helper function for making prettier boxplots """
     c = np.array(color) # * 0.5
